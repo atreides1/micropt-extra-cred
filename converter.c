@@ -11,7 +11,7 @@ void convert_all(unsigned nlines, char *lines[], quote_t nums[])
 {
 
 
-  for (unsigned i = 0; i < nlines; i++)
+  for (unsigned i = 0; i < nlines; ++i)
   {
     // An inline atoi() function
     //with help from: https://www.geeksforgeeks.org/write-your-own-atoi/
